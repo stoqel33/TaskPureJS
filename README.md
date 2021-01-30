@@ -39,7 +39,7 @@ route('/path/to/view', 'idSelector', function() {
 ## Dokumentacja API
 *Example request*
 ```
-POST /api/login
+POST https://zwzt-zadanie.netlify.app/api/login
 
 {
   username: 'zwzt',
@@ -58,7 +58,7 @@ Aby otrzymać komunikat o błędzie, trzeba w polu `password` wpisać `error`
 
 *Example request*
 ```
-POST /api/login
+POST https://zwzt-zadanie.netlify.app/api/login
 {
   username: 'zwzt',
   password: 'error'
