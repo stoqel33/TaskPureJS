@@ -1,6 +1,5 @@
 // Simple JavaScript Templating
 // John Resig - https://johnresig.com/ - MIT Licensed
-
 const cache = {};
 
 export const engine = (str, data) => {
