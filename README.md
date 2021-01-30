@@ -30,10 +30,11 @@ route('/path/to/view', 'idSelector', function() {
 
 ##### Logika kontrolerów
 
-1. Interpolacja (example 1) - zmienne w kontrolerach są interpolowane na templatki (`<%= nazwa zmiennej %>`). Dodatkowo templatki wykonują czysty JavaScript taki jak np. pętle (`<% console.log('js!') %>`.
+1. `template` - interpolacja (*example 1*) - zmienne w kontrolerach są interpolowane na templatki (`<%= nazwa zmiennej %>`). Dodatkowo templatki wykonują czysty JavaScript taki jak np. pętle (`<% console.log('js!') %>`.
 
-2. Rejestracja eventów `$on` (example 2) - aby podpiąć obsługę eventu należy skorzystać z metody `$on`, zgodnie z sygnaturą: `this.$on('.css-selector', 'eventType', (ev) => { // event handler });`
-3. Rerender templatki `$refresh` (example 2) - metoda kontrolera umożliwiająca odświeżenie całego widoku np. na wypadek zmiany wartości pól.
+2. `$on` - rejestracja eventów (*example 2*) - aby podpiąć obsługę eventu należy skorzystać z metody `$on`, zgodnie z sygnaturą: `this.$on('.css-selector', 'eventType', (ev) => { // event handler });`
+
+3. `$refresh` - rerender (*example 2*) - metoda umożliwiająca odświeżenie całego widoku np. na wypadek zmiany wartości pól.
 
 ## Dokumentacja API
 *Example request*
