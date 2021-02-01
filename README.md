@@ -10,6 +10,16 @@ Po przesłaniu formularza aplikacja powinna przekierować do strony success lub 
 ##### Część zaawansowana
 Zmodyfikuj projekt w taki sposób, aby każda templatka była w osobnym pliku. To zadanie wymaga trochę kreatywności, być może trzeba będzie rozbudować konfigurację webpack'a, być może zmodyfikować logikę `engine.js` lub `router.js`. Wszystkie chwyty dozwolone. Cel jest taki, aby templatki były tworzone poza `index.html`.
 
+##### Rozwiązanie
+Na rozwiązanie składa się:
+- link do repozytorium
+- screenshot widoku home
+
+Oceniamy:
+- działające rozwiązanie
+- czysty i dobrze napisany kod
+- minimalistyczny i estetyczny design
+
 ## Dokumentacja PureJS
 
 Framework składa się z dwóch części
